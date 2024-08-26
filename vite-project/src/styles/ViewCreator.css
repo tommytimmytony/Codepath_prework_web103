@@ -1,0 +1,86 @@
+.viewContainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.imageContainer {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.infoContainer {
+  flex: 2;
+}
+
+.infoContainer h3 {
+  font-size: 2rem;
+  margin: 0 0 10px;
+}
+
+.infoContainer a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.infoContainer a:hover {
+  text-decoration: underline;
+}
+
+.infoContainer p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.crudBtn {
+  display: inline-block;
+  margin: 5rem;
+  width: 20rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(145deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3),
+    -4px -4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.crudBtn:hover {
+  transform: translateY(-4px);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3),
+    -4px -4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.crudBtn:active {
+  transform: translateY(2px);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3),
+    -2px -2px 8px rgba(255, 255, 255, 0.2);
+}
+
+

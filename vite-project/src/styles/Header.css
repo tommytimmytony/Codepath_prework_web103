@@ -1,0 +1,56 @@
+.headerContainer {
+  height: 600px;
+  background-image: url(https://cdn.dribbble.com/users/78672/screenshots/5922339/attachments/1273871/free-wallpaper-hd-4k-uhd-download-epic-cool-new-fresh-conceptual-space-surreal-photoshop_0002_moment.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid rgb(66, 74, 89);
+  text-align: center;
+  padding-top: 10rem;
+  color: white; /* Ensures text is visible over the background */
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+.headerContainer h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow to the text */
+}
+
+.headerContainer nav {
+  display: flex;
+  justify-content: center;
+  gap: 2em; /* Space between the two ul elements */
+}
+
+.headerContainer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.headerContainer li {
+  display: inline;
+  margin: 0 1em;
+}
+
+.headerLink {
+  color: white;
+  text-decoration: none;
+  text-wrap: nowrap;
+  font-size: 1.7rem;
+  padding: 0.5em 1em;
+  background-color: rgba(0, 0, 0, 0.4); 
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.headerLink:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.headerLink:active {
+  transform: scale(1);
+}
